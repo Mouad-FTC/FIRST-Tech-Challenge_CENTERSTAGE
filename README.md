@@ -1,6 +1,8 @@
 ## NOTICE
 
-This repository contains the public FTC SDK for the CENTERSTAGE (2023-2024) competition season.
+This repository is just a contribution to the offcial repository that contains the FTC SDK for the CENTERSTAGE (2023-2024) competition season.
+The code used can be a bit older so pay attention to make the appropiate changes when using it.
+It's not the good code reference for the autonomous peroid as it doesn't work as it should.
 
 ## Welcome!
 This GitHub repository contains the source code that is used to build an Android app to control a *FIRST* Tech Challenge competition robot.  To use this SDK, download/clone the entire project to your local computer.
