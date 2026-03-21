@@ -7,8 +7,8 @@ import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-@TeleOp ( name = "TeleOpMode")
-public class TeleOpMode extends LinearOpMode {
+@TeleOp ( name = "NotTheBestStateMachine")
+public class NotTheBestStateMachine extends LinearOpMode {
 
     //Declaring the actuators
     DcMotor leftMotor;
@@ -52,7 +52,7 @@ public class TeleOpMode extends LinearOpMode {
         servoClawRot.setPosition(0);
 
         timer = new ElapsedTime();
-        // Initialize the FSM to the IDLE state
+        // Initializing of the FSM to the IDLE state (initial state)
         currentState = State.IDLE;
 
         waitForStart();
@@ -63,7 +63,7 @@ public class TeleOpMode extends LinearOpMode {
             rightMotor.setPower(gamepad1.left_stick_y);
             leftMotor.setPower(gamepad1.left_stick_y);
 
-            rightMotor.setPower(+gamepad1.right_stick_x);
+            rightMotor.setPower(gamepad1.right_stick_x);
             leftMotor.setPower(-gamepad1.right_stick_x);
 
             rightMotor.setPower(gamepad2.left_stick_y /2);

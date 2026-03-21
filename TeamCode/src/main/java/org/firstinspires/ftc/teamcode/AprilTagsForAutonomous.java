@@ -23,8 +23,8 @@ import org.firstinspires.ftc.vision.VisionPortal;
 import org.firstinspires.ftc.vision.apriltag.AprilTagDetection;
 import org.firstinspires.ftc.vision.apriltag.AprilTagProcessor;
 
-@Autonomous( name = "AprilTag")
-public class AprilTagCam extends LinearOpMode {
+@Autonomous( name = "AprilTagsForAutonomous")
+public class AprilTagsForAutonomous extends LinearOpMode {
 
     DcMotor leftMotor;
     DcMotor rightMotor;

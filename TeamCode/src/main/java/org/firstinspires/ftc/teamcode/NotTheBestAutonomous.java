@@ -17,8 +17,8 @@ import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
 import org.firstinspires.ftc.teamcode.Angle_PID_Constants.PIDConstants;
 
 
-@Autonomous( name = "pranci")
-public class pranci extends LinearOpMode {
+@Autonomous( name = "NotTheBestAutonomous")
+public class NotTheBestAutonomous extends LinearOpMode {
 
     //Declaring the actuators
     DcMotor leftMotor;
