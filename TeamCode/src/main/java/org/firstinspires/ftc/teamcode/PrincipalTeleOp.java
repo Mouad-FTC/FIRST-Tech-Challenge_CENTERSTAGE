@@ -43,7 +43,7 @@ public class PrincipalTeleOp extends LinearOpMode {
         waitForStart();
         while (opModeIsActive()) {
 
-            // Controlling the motors of the driveTrain
+            // Controlling driveTrain motors
             rightMotor.setPower(gamepad1.left_stick_y);
             leftMotor.setPower(gamepad1.left_stick_y);
 
