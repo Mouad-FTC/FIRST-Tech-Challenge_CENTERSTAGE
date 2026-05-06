@@ -7,7 +7,7 @@ import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-@TeleOp ( name = "NotTheBestStateMachine")
+@TeleOp ( name = "StateMachine")
 public class NotTheBestStateMachine extends LinearOpMode {
 
     //Declaring the actuators
